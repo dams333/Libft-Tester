@@ -6,7 +6,7 @@
 /*   By: dhubleur <dhubleur@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/25 19:12:30 by dhubleur          #+#    #+#             */
-/*   Updated: 2022/01/26 14:26:39 by dhubleur         ###   ########.fr       */
+/*   Updated: 2022/01/26 14:27:27 by dhubleur         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,7 +43,7 @@ static char	*test7()
 {
 	start_malloc_catcher();
 	start_malloc_breaker();
-	free(ft_itoa(0));
+	ft_itoa(0);
 	stop_malloc_breaker();
 	stop_malloc_catcher();
 	return "0";
