@@ -6,7 +6,7 @@
 /*   By: dhubleur <dhubleur@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/25 18:34:06 by dhubleur          #+#    #+#             */
-/*   Updated: 2022/01/26 12:15:33 by dhubleur         ###   ########.fr       */
+/*   Updated: 2022/01/26 14:16:28 by dhubleur         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,5 +25,8 @@ t_tests_list	*strlen_list();
 t_tests_list	*memset_list();
 t_tests_list	*bzero_list();
 t_tests_list	*memcpy_list();
+t_tests_list	*atoi_list();
+t_tests_list	*itoa_list();
+t_tests_list	*putnbr_list();
 
 #endif

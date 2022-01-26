@@ -6,7 +6,7 @@
 #    By: dhubleur <dhubleur@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/12/08 10:05:58 by dhubleur          #+#    #+#              #
-#    Updated: 2022/01/26 12:15:45 by dhubleur         ###   ########.fr        #
+#    Updated: 2022/01/26 14:16:49 by dhubleur         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -35,7 +35,10 @@ SRCS			=	isalpha.c \
 					strlen.c \
 					memset.c \
 					bzero.c \
-					memcpy.c
+					memcpy.c \
+					atoi.c \
+					itoa.c \
+					putnbr.c
 
 ################################################################################
 #								  Includes									   #
