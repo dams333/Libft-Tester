@@ -6,7 +6,7 @@
 /*   By: dhubleur <dhubleur@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/25 18:34:06 by dhubleur          #+#    #+#             */
-/*   Updated: 2022/01/27 11:00:59 by dhubleur         ###   ########.fr       */
+/*   Updated: 2022/01/27 11:07:56 by dhubleur         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,5 +33,6 @@ t_tests_list	*join_list();
 t_tests_list	*putchar_list();
 t_tests_list	*putstr_list();
 t_tests_list	*putendl_list();
+t_tests_list	*strdup_list();
 
 #endif

@@ -12,7 +12,6 @@
 	- memcmp
 	- strnstr
 	- calloc
-	- strdup
 	- ft_substr
 	- ft_strtrim
 	- ft_strmapi

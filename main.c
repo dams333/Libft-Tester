@@ -6,7 +6,7 @@
 /*   By: dhubleur <dhubleur@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/25 18:33:57 by dhubleur          #+#    #+#             */
-/*   Updated: 2022/01/27 11:01:15 by dhubleur         ###   ########.fr       */
+/*   Updated: 2022/01/27 11:08:09 by dhubleur         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,5 +32,6 @@ int	main()
 	add_test_list(tester, putchar_list());
 	add_test_list(tester, putstr_list());
 	add_test_list(tester, putendl_list());
+	add_test_list(tester, strdup_list());
 	launch_test(tester);
 }
