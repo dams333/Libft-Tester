@@ -6,7 +6,7 @@
 /*   By: dhubleur <dhubleur@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/26 14:28:23 by dhubleur          #+#    #+#             */
-/*   Updated: 2022/01/26 14:45:00 by dhubleur         ###   ########.fr       */
+/*   Updated: 2022/01/27 10:50:57 by dhubleur         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -68,7 +68,7 @@ static char *test7()
 {
 	start_malloc_catcher();
 	start_malloc_breaker();
-	ft_split("  Salut     ca va ?  ", ' ');
+	free(ft_split("  Salut     ca va ?  ", ' '));
 	stop_malloc_breaker();
 	stop_malloc_catcher();
 	return "0";

@@ -6,7 +6,7 @@
 #    By: dhubleur <dhubleur@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/12/08 10:05:58 by dhubleur          #+#    #+#              #
-#    Updated: 2022/01/26 14:29:02 by dhubleur         ###   ########.fr        #
+#    Updated: 2022/01/27 11:01:05 by dhubleur         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -39,7 +39,11 @@ SRCS			=	isalpha.c \
 					atoi.c \
 					itoa.c \
 					putnbr.c \
-					split.c
+					split.c \
+					join.c \
+					putchar.c \
+					putstr.c \
+					putendl.c
 
 ################################################################################
 #								  Includes									   #

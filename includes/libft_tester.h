@@ -6,7 +6,7 @@
 /*   By: dhubleur <dhubleur@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/25 18:34:06 by dhubleur          #+#    #+#             */
-/*   Updated: 2022/01/26 14:28:50 by dhubleur         ###   ########.fr       */
+/*   Updated: 2022/01/27 11:00:59 by dhubleur         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,5 +29,9 @@ t_tests_list	*atoi_list();
 t_tests_list	*itoa_list();
 t_tests_list	*putnbr_list();
 t_tests_list	*split_list();
+t_tests_list	*join_list();
+t_tests_list	*putchar_list();
+t_tests_list	*putstr_list();
+t_tests_list	*putendl_list();
 
 #endif
